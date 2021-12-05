@@ -9,10 +9,10 @@ h1, h2, h3, h4, h5, h6 {
 /* BASE TEXT FONTS */
 
 body {
-    font-family: $font-family-serif;
+    font-family: $font-family-sans
 }
 h1, h2, h3, h4, h5, h6 { 
-    font-family: $font-family-sans;
+    font-family: $font-family;
 }
 
 /* BASE TYPOGRAPHY */
@@ -21,7 +21,7 @@ body {
     line-height: 1.4;
 }
 h1, h2, h3, h4, h5, h6, p {
-    margin: 0 0 .5em 0;
+    // margin: 0 0 .5em 0;
 }
 
 /* TYPOGRAPHIC SCALE (TRADITIONAL) */
@@ -41,13 +41,21 @@ h3 {
 
 p {
     line-height: 2em;
-    margin: 1.5em 0;
+    // margin: 1.5em 0;
 }
 
 /* LIMIT # OF CHARACTERS PER LINE */
 p {
     max-width: 40em;
     // max-width: 65ch;
+}
+
+/* LINKS */
+a {
+    color: $color-link;
+    &:hover {
+        color: $color-link-darker;
+    }
 }
 
 /* HORIZONTAL LINE */
@@ -59,12 +67,12 @@ hr {
 
 /* TYPE SPECIMEN */
 .headline {
-    font-family: 'Kaisei Opti';
+    font-family: $font-family;
     font-weight: bold;
     font-size: 4em;
     line-height: 1;
     margin: 0;
-    color: $color-accent;
+    color: $color-light;
 }
 
 .subheadline {
@@ -77,7 +85,7 @@ hr {
 /* SECTION HEADING */
 .section-heading {
     font-size: 1em;
-    font-family: $font-family-sans;
+    font-family: $font-family;
     font-weight: normal;
     text-transform: uppercase;
     letter-spacing: .05em;

@@ -5,12 +5,17 @@
 $color-background: white;
 $color-text-body: rgba(0,0,0,.8);
 $color-text-headings: rgba(0,0,0,1);
-$color-accent: #69bf64;
-$color-accent-dark: #418b3d;
-$color-accent-light: #b3d1b2;
+$color-link: #06d6a0;
+$color-light: #06d6a0;
+$color-link-darker: #ef476f;
 
-$font-family-sans: Helvetica, Arial, Helvetica, sans-serif;
-$font-family-serif: Georgia, 'Times New Roman', serif;
+@font-face {
+  font-family: 'Savate';
+  src: url(/fonts/savate-regular.otf);
+}
+
+$font-family: 'Savate', Helvetica, Arial, Helvetica, sans-serif;
+$font-family-sans: 'Poppins', Georgia, serif;
 
 // BREAKPOINTS
 $breakpoint-small: 768px;
@@ -22,10 +27,10 @@ $breakpoint-large: 1250px;
 @import "partials/toc";
 @import "partials/typography"; 
 @import "partials/buttons";
-// @import "partials/media";
-// @import "partials/layout";
-// @import "partials/grid";
-// @import "partials/structure";
+@import "partials/media";
+@import "partials/layout";
+@import "partials/grid";
+@import "partials/structure";
 
 body {
   background: $color-background;

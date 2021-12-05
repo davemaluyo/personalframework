@@ -2,13 +2,15 @@
 
 .button {
     display: inline-block;
-    background-color: $color-accent;
+    background-color: $color-link;
     color: rgba(0,0,0,.8);
     text-decoration: none;
-    padding: 1em;
+    padding: 1.5em;
     border-radius: 5px;
+    margin: 1em 0;
 
     &:hover {
-        background-color: $color-accent-dark;
+        color: black;
+        background-color: $color-link-darker;
     }
 }
