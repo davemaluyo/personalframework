@@ -1,0 +1,139 @@
+/* GLOBAL RESETS */
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*
+
+TABLE OF CONTENTS
+
+# GLOBAL RESET
+# BASE TYPOGRAPHY
+# BUTTONS
+# MEDIA
+    # RESPONSIVE IMAGES
+# LAYOUT
+    # CONTAINER
+    # MEDIA QUERIES
+    # SEMANTIC GRID SYSTEM
+# STRUCTURE
+    # SITE HEADER
+    # SITE NAV
+    # MAIN
+        # SECTIONS
+    # SITE FOOTER
+
+*/
+/* BASE TEXT COLORS */
+body {
+  color: rgba(0, 0, 0, 0.8);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: black;
+}
+
+/* BASE TEXT FONTS */
+
+@font-face {
+  font-family: 'Savate';
+  src: url(/fonts/savate-regular.otf);
+}
+
+body {
+  font-family: 'Poppins', Helvetica, Arial, serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Savate',Helvetica, Arial, Helvetica, sans-serif;
+}
+
+/* BASE TYPOGRAPHY */
+body {
+  font-size: 100%;
+  line-height: 1.4;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+  margin: 0 0 0.5em 0;
+}
+
+/* TYPOGRAPHIC SCALE (TRADITIONAL) */
+h1 {
+  font-size: 3em;
+  line-height: 1;
+}
+
+h2 {
+  font-size: 2.25em;
+  line-height: 1.1;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1.2;
+}
+
+p {
+  line-height: 2em;
+  margin: 1.5em 0;
+}
+
+/* LIMIT # OF CHARACTERS PER LINE */
+p {
+  max-width: 40em;
+}
+
+/* HORIZONTAL LINE */
+hr {
+  border: 0;
+  height: 1px;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+/* TYPE SPECIMEN */
+.headline {
+  font-family: 'Savate';
+  font-weight: bold;
+  font-size: 4em;
+  line-height: 1;
+  margin: 0;
+  color: #69bf64;
+}
+
+.subheadline {
+  font-weight: normal;
+  font-size: 2.5em;
+  margin: 0.25em 0;
+  color: rgba(0, 0, 0, 0.8);
+}
+
+/* SECTION HEADING */
+.section-heading {
+  font-size: 1em;
+  font-family: Helvetica, Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  padding: 0 0 0.5em 0;
+  margin: 3em 0;
+}
+
+/* HELPERS */
+/* BUTTONS */
+.button {
+  display: inline-block;
+  background-color: #69bf64;
+  color: rgba(0, 0, 0, 0.8);
+  text-decoration: none;
+  padding: 1em;
+  border-radius: 5px;
+}
+.button:hover {
+  background-color: #418b3d;
+}
+
+body {
+  background: white;
+}

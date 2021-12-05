@@ -1,0 +1,32 @@
+/* GLOBAL RESETS */
+* {box-sizing: border-box;}
+
+// VARIABLES
+$color-background: white;
+$color-text-body: rgba(0,0,0,.8);
+$color-text-headings: rgba(0,0,0,1);
+$color-accent: #69bf64;
+$color-accent-dark: #418b3d;
+$color-accent-light: #b3d1b2;
+
+$font-family-sans: Helvetica, Arial, Helvetica, sans-serif;
+$font-family-serif: Georgia, 'Times New Roman', serif;
+
+// BREAKPOINTS
+$breakpoint-small: 768px;
+$breakpoint-medium: 1050px;
+$breakpoint-large: 1250px;
+
+
+// IMPORTS
+@import "partials/toc";
+@import "partials/typography"; 
+@import "partials/buttons";
+// @import "partials/media";
+// @import "partials/layout";
+// @import "partials/grid";
+// @import "partials/structure";
+
+body {
+  background: $color-background;
+}
